@@ -43,12 +43,13 @@ function delete_id(id)
     </div>
 </div>
 
-<body style="vertical-align: middle;">
-	<div id="content">
+<div id="body" align="center">
+    <div id="content">
     <table align="center">
     <tr>
     <th colspan="5"><a href="add_data.php">add data here.</a></th>
     </tr>
+        <tr>
     <th>First Name</th>
     <th>Last Name</th>
     <th>City Name</th>
@@ -68,9 +69,9 @@ function delete_id(id)
 		?>
             <tr>
 
-            <td><?php echo $row['first_name']; ?></td>
-            <td><?php echo $row['last_name']; ?></td>
-            <td><?php echo $row['user_city']; ?></td>
+            <td align="center"><?php echo $row['first_name']; ?></td>
+            <td align="center"><?php echo $row['last_name']; ?></td>
+            <td align="center"><?php echo $row['user_city']; ?></td>
             <td align="center"><a href="javascript:edt_id('<?php echo $row['user_id']; ?>')"><img src="b_edit.png" align="EDIT" /></a></td>
             <td align="center"><a href="javascript:delete_id('<?php echo $row['user_id']; ?>')"><img src="b_drop.png" align="DELETE" /></a></td>
             </tr>
@@ -87,8 +88,10 @@ function delete_id(id)
 	}
 	?>
     </table>
+
     </div>
 </div>
+
 
 </body>
 </html>
