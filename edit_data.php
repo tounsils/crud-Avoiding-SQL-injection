@@ -58,7 +58,7 @@ if(isset($_POST['btn-cancel']))
     </div>
 </div>
 
-<div id="body">
+<div id="body" align="center">
 	<div id="content">
     <form method="post">
     <table align="center">
