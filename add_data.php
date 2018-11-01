@@ -47,7 +47,7 @@ if(isset($_POST['btn-save']))
     <label>CRUD Operations With PHP and MySql - <a href="http://www.codingcage.com" target="_blank">By Coding Cage</a></label>
     </div>
 </div>
-<div id="body">
+<div id="body" align="center">
 	<div id="content">
     <form method="post">
     <table align="center">
@@ -64,7 +64,7 @@ if(isset($_POST['btn-save']))
     <td><input type="text" name="city_name" placeholder="City" required /></td>
     </tr>
     <tr>
-    <td><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
+    <td align="center"><button type="submit" name="btn-save"><strong>SAVE</strong></button></td>
     </tr>
     </table>
     </form>
